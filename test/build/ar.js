@@ -2887,7 +2887,7 @@ THREEx.ArToolkitProfile.prototype.hiroMarker = function () {
 	this.contextParameters.detectionMode = 'mono'
 
 	this.defaultMarkerParameters.type = 'pattern'
-	this.defaultMarkerParameters.patternUrl = THREEx.ArToolkitContext.baseURL + '../data/data/patt.hiro'
+	this.defaultMarkerParameters.patternUrl = THREEx.ArToolkitContext.baseURL + 'patt.hiro'
 	return this
 }
 
